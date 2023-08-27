@@ -1,0 +1,1 @@
+<button class="button bg-white border-2 border-black p-3 js-button"><span><?php echo ($text); ?></span></button>
