@@ -1,0 +1,12 @@
+@layer components {
+  .header {
+    @apply text-sm;
+    text-align: center;
+  }
+  .header__nav {
+    display: flex;
+    & li {
+      color: red;
+    }
+  }
+}

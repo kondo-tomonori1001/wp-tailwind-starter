@@ -1,6 +1,0 @@
-@layer components {
-  .header {
-    @apply text-lg;
-    text-align: center;
-  }
-}
