@@ -25,6 +25,7 @@
     "stylelint:fix": "stylelint \"**/*.scss\" --fix",
     "copy:php-root": "cpx './*.php' theme",
     "copy:php-components": "cpx './components/**/*.php' theme/components",
+    "copy:stylecss": "cpx './style.css' theme",
     "copy:assets": "cpx './assets/**/*' theme/assets",
     "copy": "run-p copy:*",
     "server": "browser-sync start --config bs-config.js"
